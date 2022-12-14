@@ -1,0 +1,18 @@
+.eye {
+  position: absolute;
+  /*height:700px;*/
+  width: 1000px;
+  top: 40px;
+  left: 620px;
+  z-index: 1;
+}
+
+.heaven {
+  position: absolute;
+  height: 1500px;
+  width: 800px;
+  z-index: -1;
+  transform: rotate(25deg);
+  left: -500px;
+  top: -250px;
+}

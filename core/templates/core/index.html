@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="{% static 'core/'%}css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="{% static 'core/'%}js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="{% static 'core/'%}css/miestilo.css">
+    <link rel="stylesheet" href="{% static 'core/'%}css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    </style>
+    <title>Tellevo App</title>
+</head>
+
+<body style="background-color:rgb(104, 60, 185);">
+    <div class="container">
+        <nav style="background-color: #501f5e!important;" class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">TeLlevo App</a>
+            </div>
+        </nav>
+
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="container">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="{% static 'core/'%}img/viaje-en-coche.jpg.jpg" alt="Los Angeles" class="d-block w-100"
+                            height="630">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="carr">Programa o toma viajes para casi toda la región del Bío-Bío</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{% static 'core/'%}img/Conoce.jpg" alt="Chicago" class="d-block w-100" height="630">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="carr" style="color: white;">Conoce nuevas personas en cada viaje</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{% static 'core/'%}img/mujeres-autos.jpg" alt="New York" class="d-block w-100"
+                            height="630">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="carr" style="color:white">La aplicación solo será utilizada por alumnos o
+                                prefesores de Duoc UC, 100% confiable</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark"></span>
+                </button>
+            </div>
+        </div>
+        <br><br>
+        <div class="container">
+            <p id="descApp" style="color:white;display: inline;">Descarga la app aquí ----></p>
+            <a id="desApp" style="color: white;display: inline;"
+                href="https://www.mediafire.com/file/3dnjzabnwdc4z5g/TeLlevoApp.apk/file">Descargar aplicación</a>
+            <br><br>
+        </div>
+
+        <div class="carta">
+            <div class="container">
+                <hr>
+                <h2>Pasajeros</h2>
+                <hr><br>
+
+                <div class="row">
+                    <div id="imagenl" class="col">
+                        <img src="{% static 'core/'%}img/appMovil/pasajero/tab1.png" width="95%" alt="">
+                    </div>
+                    <div class="col container">
+                        <p style="color:white">Elige el viaje que más se acomode a tus necesidades.</p>
+                    </div>
+                    <br>
+                    <div id="imagenl" class="col">
+                        <img src="{% static 'core/'%}img/appMovil/pasajero/tomarViaje.png" width="95%" alt="">
+                    </div>
+                    <div id="" class="col">
+                        <p style="color:white">Al ingresar al viaje, es tán fácil como tomarlo y listo, ¡Ya tienes
+                            locomoción!</p>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <br>
+
+
+                <div class="row">
+
+                    <div id="" class="col">
+                        <p style="color:white">Ve el detalle del viaje que tomaste, y si quieres tomar otro, tienes
+                            la libertad de salir del viaje y tomar el que tu quieras.</p>
+                    </div>
+                    <div id="imagenr" class="col">
+                        <img src="{% static 'core/'%}img/appMovil/pasajero/tab2.png" width="95%" alt="">
+                    </div>
+
+
+
+                    <div id="" class="col">
+                        <p style="color:white">Podrás ver tu información personal y cambiar de rol, en caso de quieras
+                            convertirte en un conductor.</p>
+                    </div>
+                    <div id="imagenr" class="col">
+                        <img src="{% static 'core/'%}img/appMovil/pasajero/tab3.png" width="95%" alt="">
+                    </div>
+                </div>
+                <br>
+
+                <hr>
+                <h2>Conductores</h2>
+                <hr><br>
+                <!-- Primera descripción -->
+                <div class="row">
+
+                    <div id="imagenl" class="col">
+                        <img src="{% static 'core/'%}img/appMovil/conductor/viajes.png" width="95%">
+                    </div>
+                    <div id="" class="col">
+                        <p style="color:white">Dale un vistazo a los viajes que has realizado hasta ahora.</p>
+                    </div>
+
+
+                    <div id="imagenl" class="col">
+                        <img src="{% static 'core/'%}img/appMovil/conductor/prograViaje.png" width="95%">
+                    </div>
+                    <div id="" class="col">
+                        <p style="color:white">¿Aún no has hecho viajes?... Programa un viaje ingresando destino, fecha,
+                            hora, método de pago con el
+                            que prefieras que te paguen y un comentario.</p>
+                    </div>
+
+                </div>
+
+                <br>
+                <hr><br>
+
+                <div class="row">
+                    <div id="" class="col">
+                        <p style="color:white">Revisa el detalle del viaje que estás realizando y los pasajeros que han
+                            tomado el viaje.</p>
+                    </div>
+                    <div id="imagenr" class="col">
+                        <img src="{% static 'core/'%}img/appMovil/conductor/tab2.png" width="95%">
+                    </div>
+
+
+                    <div id="" class="col">
+                        <p style="color:white">Sé cuidadoso, inicia el viaje cuando todos los pasajeros estén en el
+                            auto. Y finalízalo cuando todos estén en sus casas.</p>
+                    </div>
+                    <div id="imagenr" class="col">
+                        <img src="{% static 'core/'%}img/appMovil/conductor/iniFinViaje.png" width="95%">
+                    </div>
+                </div>
+                <br>
+                <hr><br>
+                <div class="row">
+                    <div id="imagenl" class="col">
+                        <img src="{% static 'core/'%}img/appMovil/conductor/cambiarRol.png" width="95%">
+                    </div>
+                    <div class="col">
+                        <p id="pa" style="color:white">¿Tu auto está en el mecánico y necesitas llegar a tu casa?...
+                            Cambia
+                            tu rol a pasajero y podrás tomar el viaje que desees.</p>
+                    </div>
+
+                    <div id="imagenl" class="col">
+                        <img src="{% static 'core/'%}img/appMovil/conductor/infoAuto.png" width="95%">
+                    </div>
+                    <div class="col">
+                        <p id="pa" style="color:white">Justo debajo de tu información personal, encontrarás la
+                            información de tu auto.</p>
+                    </div>
+                </div>
+                <br><br><br>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="card">
+    <h5 id="fut">Tellevo App</h5>
+</footer>
+
+</html>

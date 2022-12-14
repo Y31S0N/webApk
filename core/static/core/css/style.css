@@ -1,0 +1,59 @@
+*{
+    font-family: Roboto;
+}
+.card{
+    color: white;
+    background-color: #501f5e;
+    height: 100px;
+    text-align: justify;
+}
+#fut{
+    padding-top: 2.5%;
+    padding-bottom: 1%;
+    text-align: center;
+    display: inline;
+    padding-right: 0;
+}
+#imagenl{
+    padding-left: 30px!important;
+    padding-right: 5px!important;
+}
+#imagenr{
+    padding-right: 30px!important;
+    padding-left: 0px!important;
+}
+p{
+    font-size: 20px;
+    padding: 4px;
+}
+hr{
+    color: black;
+}
+h2{
+    text-align: center;
+    padding: 12px;
+    color: white;
+}
+h3{
+    color: black;
+}
+.navbar{
+    border-bottom-right-radius: 8px!important;
+    border-bottom-left-radius: 8px!important;
+}
+#descApp{
+    padding-left: 25%;
+}
+#desApp{
+    padding-left: 5%;
+}
+.carr{
+    font-size: 30px;
+    color: black;
+}
+p{
+    padding-top: 50%!important;
+}
+#pa{
+    padding-top: 20%!important;
+}
